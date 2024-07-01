@@ -1,0 +1,27 @@
+complexidade de algoritimos é importante porque é necessario melhorar algoritmos o tempo todo 
+para que eles fiquem mais performaticos. ao analisar um algoritmo, existem 2 aspectos para serem levados em conta, 
+a velocidade de processamento e o espaço de memoria e disco. o que nos queremos saber ao analisar um algoritmo é se ele é rapido
+e se ele continuará sendo rapido a medida que os dados aumentam, então pode existir um algoritmo rapido com poucos dados mas que
+ficam lentos com muitos dados. é importante entender que quando nós analisamos o tempo de execução de um algoritmo, não é 
+necessariamente o tempo que ele demora pra executar, pois isso pode variar muito dependendo da potencia da maquina que está
+executando o algoritmo, o tempo de preocessamento é um tempo computacional, ou seja, quantas operações foram executadas pelo
+algoritmo, então uma maquina fraca pode demorar 1 segundo para executar 100 operações, e uma maquina potente pode demorar meio 
+segundo para executar mil operações, então mesmo a segunda maquina executando na metade do tempo, o primeiro algoritmo ainda
+é considerado o mais rapido.
+ao analisar a complexidade de um algoritmo existem casos em que ele é aplicado, existe o melhor caso, o caso medio e o pior caso
+por exemplo, em um algoritmo linear, onde ele checa o vetor posição por posição, o melhor caso é quando a variavel sendo procurada
+está na primeira posição, pois ele vai olhar a primeira posição, vai achar e vai parar, logo, uma unica operação foi feita,
+o caso medio seria quando a variavel procurada está na metade do vetor, pois ele vai precisar olhar metade das posições até
+encontrar, e o pior caso é quando a variavel procurada está na ultima posição do vetor, pois o algoritmo vai precisar percorrer
+o vetor inteiro para poder achar a variavel, e a complexidade de um algoritmo sempre é baseada no pior caso.
+o pior caso de um algoritmo é representado pela notação O()
+n= tamanho do problema
+em um algoritmo linear, a complexidade é O(n) pois quanto maior o n, mais passos o algoritimo vai fazer proporcionalmente, se forem
+100 posições, vao ser 100 pasos, 10 posições, 10 passos e assim por diante.
+o melhor tipo de algoritmo que existe é um algoritmo com complexidade O(log n) pois ele não precisa dar n passos pra resolver um
+problema de tamanho n.
+diferente das listas ligadas, as arvores sao compostas por nós que possuem dois filhos
+a composição das arvores se dao pela raiz, que é o primeiro nó, e as folhas, que são os ultimos nós, entre as folhas e a raiz
+existem outros nós, existem varias formas de estruturar uma arvore binaria, uma delas é mandar os menores numeros para a esquerda
+e os maiores numeros para a direita, o problema disso é que dependendo da entrada de dados, a arvore pode ficar muito desbalanceada
+o que vai acontecer na maioria das vezes.
